@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to My Home Page</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -15,12 +16,6 @@
         </section>
     </header>
  
-    <section id="interactive-cat">
-        <div class="cat-wrapper">
-            <div class="cat"></div>
-        </div>
-        <p>Hover over Mr. Mittens!</p>
-    </section>
 
     <footer>
         <p>Made with 💖 by Danielle Hoffman</p>
@@ -28,98 +23,6 @@
         <p> <a href="about.html">About me</a></p>
         <p><a href="contact.html">Contact Me</a></p>
     </footer>
-
-    <style>
-        
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f8f1f1;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 3rem;
-            color: #ff69b4;
-            margin-top: 50px;
-        }
-
-        p {
-            font-size: 1.2rem;
-            color: #333;
-        }
-
-        #home {
-            padding: 50px;
-            background-color: #ffe6f2;
-            border-bottom: 2px solid #ff69b4;
-        }
-
-        #interactive-cat {
-            margin-top: 50px;
-            padding: 50px;
-            background-color: #facfcf;
-            border-radius: 15px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            display: inline-block;
-            text-align: center;
-        }
-
-        .cat-wrapper {
-            display: inline-block;
-            width: 100px;
-            height: 100px;
-            overflow: hidden;
-            position: relative;
-            background-color: #fff;
-            border-radius: 50%;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            margin-bottom: 15px;
-        }
-
-        .cat {
-            width: 3200px; 
-            height: 32px;
-            background-image: url('home/images/idle.png'); 
-            background-repeat: no-repeat;
-            animation: runCat 1s steps(10) infinite; 
-        }
-
-        @keyframes runCat {
-            0% {
-                background-position: 0 0;
-            }
-            100% {
-                background-position: -3200px 0; 
-            }
-        }
-
-        #interactive-cat:hover .cat {
-            transform: scale(1.1); 
-        }
-
-       
-        footer {
-            margin-top: 50px;
-            padding: 20px;
-            background-color: #ff69b4;
-            color: white;
-        }
-
-        footer p {
-            margin: 5px;
-        }
-
-        footer a {
-            color: white;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
 
 </body>
 </html>
